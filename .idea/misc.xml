@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+=======
+  <component name="Black">
+    <option name="sdkName" value="Python 3.11 (Hongkai Star Rail Fun Insights from Data Analysis)" />
+  </component>
+>>>>>>> 3b5f041 (Initial Commit)
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (Tekken 8 Data Analysis)" project-jdk-type="Python SDK" />
+</project>
