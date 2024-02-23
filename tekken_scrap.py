@@ -1,43 +1,44 @@
 import re
-
+import bs4
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import pandas as pd
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 
 urls = []
 driver = webdriver.Chrome()
 url = 'https://tekken8framedata.com/'
 driver.get(url)
 
-main_page_contents = driver.page_source
+main_page_contents: str = driver.page_source
 driver.close()
 soup = BeautifulSoup(main_page_contents, 'html.parser')
 
-pattern = re.compile(r'tekken-8-frame-data')
-char_urls = soup.find_all('a', href=pattern)
+pattern: re.Pattern[str] = re.compile(r'tekken-8-frame-data')
+char_urls: bs4.ResultSet = soup.find_all('a', href=pattern)
 char_url_list = [char_url['href'] for char_url in char_urls]
 char_url_list = list(set(char_url_list))
 
 for char_url in char_url_list:
     driver = webdriver.Chrome()
     driver.get(char_url)
-    first_page_content = driver.page_source
-    char_name = char_url.split("/")[-2]
+    first_page_content: str = driver.page_source
+    char_name: str = char_url.split("/")[-2]
 
     page_contents = [first_page_content]
 
     while True:
         # Capture the current page source before clicking the next button
-        current_page_source = driver.page_source
+        current_page_source: str = driver.page_source
 
         try:
-            next_page_element = driver.find_element(By.XPATH, '//*[@id="tablesome__container"]/nav/ul/li[6]')
+            next_page_element: WebElement = driver.find_element(By.XPATH, '//*[@id="tablesome__container"]/nav/ul/li[6]')
             next_page_element.click()
 
             # Capture the new page source after clicking the button
-            new_page_source = driver.page_source
+            new_page_source: str = driver.page_source
 
             # If the page content hasn't changed (indicating end of pagination), break the loop
             if current_page_source == new_page_source:
@@ -66,11 +67,10 @@ for char_url in char_url_list:
     for content in page_contents:
         soup = BeautifulSoup(content, 'html.parser')
 
-        column_names = soup.find_all('th', class_='tablesome__column svelte-1a34s8p')
-        elements = soup.find_all('td', class_='tablesome__cell tablesome__cell--text')
+        elements: bs4.ResultSet = soup.find_all('td', class_='tablesome__cell tablesome__cell--text')
 
         for i, element in enumerate(elements):
-            j = i % 8  # Calculate column index
+            j: int = i % 8  # Calculate column index
 
             if j == 0:
                 columns['Command'].append(element.text)
@@ -81,12 +81,12 @@ for char_url in char_url_list:
                     columns['Damage'].append(element.text)
                 else:
                     # Extract numerical values using regular expression
-                    damage_values = re.findall(r'\d+', element.text)
+                    damage_values: list = re.findall(r'\d+', element.text)
                     # Convert the extracted values to integers
                     damage_integers = [int(value) for value in damage_values]
                     columns['Damage'].append(sum(damage_integers))
             elif j == 3:
-                match = re.match(r'\d+[?~]?\d*', str(element.text))
+                match: re.Match[str] = re.match(r'\d+[?~]?\d*', str(element.text))
                 if element.text == '-':
                     columns['Startup'].append(element.text)
                 elif match:
