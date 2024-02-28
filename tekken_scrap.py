@@ -188,7 +188,7 @@ def web_scrap(char_url_list: list[str]) -> None:
                             logger.debug(f'{first_int = }')
 
                             logger.info('Add to Block column')
-                            columns['Block'].append(-first_int)
+                            columns['Block'].append(first_int)
                         elif element_text.isdigit():
                             logger.info('Extracted data consists of 1 digit only, convert it into integer,'
                                         'Add to Block column.')

@@ -1,3 +1,6 @@
 # created by virtualenv automatically
 
 /Tekken 8.pbix
+
+*.log
+/tekken_8.log
