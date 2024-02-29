@@ -14,6 +14,8 @@ https://www.facebook.com/permalink.php?story_fbid=pfbid0NRgu9EkRdJFV4Af21pge9rhh
 # Tekken 8 Jun Kazama Data Analysis
 Focus primarily on Jun Kazama data in the Tekken 8.   
 
+Some move variations were excluded.
+
 Jun Kazama data is based on https://tekken8framedata.com/ and in-game data.     
 
 ## Script
