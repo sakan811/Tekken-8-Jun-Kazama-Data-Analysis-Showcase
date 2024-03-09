@@ -35,6 +35,8 @@ Moves' **Frame_Advantage_on_Block** is mostly -12 – 0 frames
 
 Moves' **Frame_Advantage_on_Hit** is mostly 2 – 21 frames
 
+Frame and Dmg/Frame have a positive relationship
+
 
 
 # Script
