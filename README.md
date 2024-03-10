@@ -19,6 +19,7 @@ Some move variations were excluded.
 Jun Kazama data is based on https://tekken8framedata.com/ and in-game data. 
 
 ## Visualizations
+Check out this [Instagram Post](https://www.instagram.com/p/C4Vg6SOropU/?img_index=1) or [Facebook Post](https://www.facebook.com/permalink.php?story_fbid=pfbid02y4BCva8qbHV4d21z5kT3hx19epNsDXqjFnBKhgncZPfBwqHfg6kEgZjQ3VyYM1wjl&id=61553626169836)
 
 ## Analysis Details
 Frame (Only first hit is considered)
