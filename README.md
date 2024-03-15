@@ -1,6 +1,8 @@
 # Tekken 8 Jun Kazama Data Analysis
 Focus primarily on Jun Kazama data in the Tekken 8.   
 
+Update Mar 10th, 2024
+
 Some move variations were excluded.
 
 Jun Kazama data is based on https://tekken8framedata.com/ and in-game data. 
