@@ -1,4 +1,4 @@
-# Tekken 8 Jun Kazama Data Analysis
+# Tekken 8 Jun Kazama Data Analysis Showcase
 Focus primarily on Jun Kazama data in the Tekken 8.   
 
 Update Mar 10th, 2024
@@ -8,9 +8,10 @@ Some move variations were excluded.
 Jun Kazama data is based on https://tekken8framedata.com/ and in-game data. 
 
 ## Visualizations
-Check out this [Instagram Post](https://www.instagram.com/p/C4Vg6SOropU/?img_index=1) or [Facebook Post](https://www.facebook.com/permalink.php?story_fbid=pfbid02y4BCva8qbHV4d21z5kT3hx19epNsDXqjFnBKhgncZPfBwqHfg6kEgZjQ3VyYM1wjl&id=61553626169836)
+[Instagram](https://www.instagram.com/p/C4Vg6SOropU/?img_index=1)  
+[Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid02y4BCva8qbHV4d21z5kT3hx19epNsDXqjFnBKhgncZPfBwqHfg6kEgZjQ3VyYM1wjl&id=61553626169836)
 
-## Analysis Details
+## Details
 Frame (Only first hit is considered)
 
 Frame_Advantage_on_Block (Only last action is considered, or if the move is stopped when blocked)
@@ -27,19 +28,3 @@ Moves' **Frame_Advantage_on_Hit** is mostly 2 – 21 frames
 
 Frame and Dmg/Frame have a positive relationship
 
-# Tekken 8 Data Analysis
-Data are based on this website: https://tekken8framedata.com/     
-
-Not all characters are included in this analysis.    
-
-The **data**, **extracted data**, and **visualizations made from the extracted data** might **not** be **100%** correct.
-
-Update Feb 29th, 2024:
-- Add Yoshimitsu data
-
-Check out this post on my Facebook page for the visualizations providing an overview of all the characters' data:    
-https://www.facebook.com/permalink.php?story_fbid=pfbid0NRgu9EkRdJFV4Af21pge9rhhfaBYRWb6JYY3SMu8ExwYAtzD6xEMZaqDzcKVAF7Ul&id=61553626169836  
-
-# Script
-```tekken_scrap.py```
-- scrap characters data from the website
