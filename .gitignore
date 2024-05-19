@@ -2,7 +2,12 @@
 
 /Tekken 8.pbix
 
-*.log
+/*.log
 /tekken_8.log
 /Tekken 8 Jun Kazama.pbix
 /r_data/
+/jun_kazama_graph/
+/graphs/
+/data/
+/*.pdf
+/.idea

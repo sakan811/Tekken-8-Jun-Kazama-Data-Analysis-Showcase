@@ -8,9 +8,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from loguru import logger
 
-# remove default loguru sink
-logger.remove()
-
 logger.add('tekken_8.log',
            format="{time:YYYY-MM-DD at HH:mm:ss} | {level} | {name} | {module} | {function} | {line} | {message}",
            mode='w')
@@ -18,8 +15,8 @@ logger.add('tekken_8.log',
 
 def return_match_for_extract_first_digit(text: str) -> re.Match[str]:
     """
-    Return Match for extracting first digit from String contain digits with regular expression in between them.
-    For example: '-19~-20'
+    Return Match for extracting a first digit from a String contains digits with regular expression in between them.
+    For example, '-19~-20'
     :param text: The input text string to match against.
     :return: A re.Match object representing the first digit match.
     """
@@ -269,7 +266,7 @@ def find_character_page_url(main_page_contents: str) -> ResultSet:
     """
     Find all character page URLs from the main page HTML.
     :param main_page_contents: main page HTML
-    :return: All character URLs as bs4.ResultSet
+    :return: All characters' URLs as bs4.ResultSet
     """
     logger.info('Finding all character page URLs...')
     logger.info('Parse HTML content to BeautifulSoup')
