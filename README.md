@@ -4,11 +4,11 @@ Showcase visualizations of Jun Kazama data in Tekken 8.
 ## Project Details
 Focus primarily on Jun Kazama from Tekken 8.   
 
-Update Mar 10th, 2024
+Update May 19, 2024
 
 Some move variations were excluded.
 
-Jun Kazama data is based on https://tekken8framedata.com/ and in-game data. 
+Jun Kazama data is based on https://rbnorway.org/jun-t8-frames/. 
 
 ## Visualizations
 [Instagram](https://www.instagram.com/p/C4Vg6SOropU/?img_index=1)  
