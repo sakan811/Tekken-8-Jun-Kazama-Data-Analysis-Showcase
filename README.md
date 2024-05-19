@@ -2,7 +2,7 @@
 Showcase visualizations of Jun Kazama data in Tekken 8.
 
 ## Project Details
-Focus primarily on Jun Kazama data in the Tekken 8.   
+Focus primarily on Jun Kazama from Tekken 8.   
 
 Update Mar 10th, 2024
 
