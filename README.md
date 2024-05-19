@@ -1,4 +1,7 @@
 # Tekken 8 Jun Kazama Data Analysis Showcase
+Showcase visualizations about Jun Kazama in the Tekken 8.
+
+## Project Details
 Focus primarily on Jun Kazama data in the Tekken 8.   
 
 Update Mar 10th, 2024
@@ -11,7 +14,7 @@ Jun Kazama data is based on https://tekken8framedata.com/ and in-game data.
 [Instagram](https://www.instagram.com/p/C4Vg6SOropU/?img_index=1)  
 [Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid02y4BCva8qbHV4d21z5kT3hx19epNsDXqjFnBKhgncZPfBwqHfg6kEgZjQ3VyYM1wjl&id=61553626169836)
 
-## Details
+## Analysis Details
 Frame (Only first hit is considered)
 
 Frame_Advantage_on_Block (Only last action is considered, or if the move is stopped when blocked)
