@@ -1,5 +1,5 @@
 # Tekken 8 Jun Kazama Data Analysis Showcase
-Showcase visualizations of Jun Kazama in Tekken 8.
+Showcase visualizations of Jun Kazama data in Tekken 8.
 
 ## Project Details
 Focus primarily on Jun Kazama data in the Tekken 8.   
