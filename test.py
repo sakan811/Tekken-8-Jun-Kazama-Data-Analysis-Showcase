@@ -63,6 +63,14 @@ def test_clean_numbers():
     assert numbers[1] == 37
     assert sum(numbers) == 31
 
+    input_str = "-6~+37g"
+    match = re.search(r'-?\d+', input_str)
+
+    if match:
+        # Convert the first found number to an integer
+        number = int(match.group(0))
+        assert number == -6
+
 
 def test_full_process():
     jks = JunKazamaScraper()

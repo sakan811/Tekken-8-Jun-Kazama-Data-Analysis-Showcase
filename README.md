@@ -4,15 +4,15 @@ Showcase visualizations of Jun Kazama data in Tekken 8.
 ## Project Details
 Focus primarily on Jun Kazama from Tekken 8.   
 
-Update May 19, 2024
+Update May 23, 2024
 
 Some move variations were excluded.
 
 Jun Kazama data is based on https://rbnorway.org/jun-t8-frames/. 
 
 ## Visualizations
-[Instagram](https://www.instagram.com/p/C4Vg6SOropU/?img_index=1)  
-[Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid02y4BCva8qbHV4d21z5kT3hx19epNsDXqjFnBKhgncZPfBwqHfg6kEgZjQ3VyYM1wjl&id=61553626169836)
+[Instagram](https://www.instagram.com/p/C7UXUdmOWvW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)  
+[Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid0qs35HjrTHuSyuX8AkdyekuMABJEBwWL4U7Aws5BinEMpDzT8M7cLJkpFJ6Po3dRpl&id=61553626169836)
 
 ## Analysis Details
 Frame (Only first hit is considered)
@@ -30,4 +30,27 @@ Moves' **Frame_Advantage_on_Block** is mostly -12 – 0 frames
 Moves' **Frame_Advantage_on_Hit** is mostly 2 – 21 frames
 
 Frame and Dmg/Frame have a positive relationship
+
+## Codebase Details
+
+### To scrape Jun Kazama data
+- Go to [main.py](main.py)
+- Specify the SQLite database name if needed
+    ```
+    sqlite_db = 'jun_kazama.db' # can be specified  
+  ```
+- Run the script
+
+### [tekken8_scraper](tekken8_scraper) Package
+[jun_kazama_scraper.py](tekken8_scraper%2Fjun_kazama_scraper.py)
+- Scrape Jun Kazama data from https://rbnorway.org/jun-t8-frames/
+- Store in Pandas DataFrame
+
+[transform_data.py](tekken8_scraper%2Ftransform_data.py)
+- Clean data in the DataFrame
+
+[migrate_to_sqlite.py](tekken8_scraper%2Fmigrate_to_sqlite.py)
+- Migrate the DataFrame to SQLite database
+  - Create SQLite database named **jun_kazama.db** 
+    - Database name can be specified in [main.py](main.py)
 

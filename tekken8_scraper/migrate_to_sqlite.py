@@ -15,8 +15,7 @@ def migrate_to_sqlite(frame_data: pd.DataFrame, sqlite_database: str) -> None:
     with sqlite3.connect(sqlite_database) as conn:
         query = '''
         CREATE TABLE IF NOT EXISTS JunKazamaData (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            Command TEXT,
+            Command TEXT PRIMARY KEY,
             [Hit Level] TEXT,
             Damage TEXT,
             [Start Up Frame] TEXT,

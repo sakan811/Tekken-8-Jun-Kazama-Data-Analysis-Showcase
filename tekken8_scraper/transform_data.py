@@ -1,6 +1,7 @@
 import re
 
 import pandas as pd
+from loguru import logger
 
 
 def clean_data(data: dict[str, list]) -> pd.DataFrame:
@@ -9,6 +10,8 @@ def clean_data(data: dict[str, list]) -> pd.DataFrame:
     :param data: Dictionary of scraped data.
     :return: Pandas dataframe with cleaned data.
     """
+    logger.info('Cleaning data...')
+
     data = pd.DataFrame(data)
 
     data["Damage"] = data["Damage"].apply(clean_numbers)
@@ -27,7 +30,7 @@ def clean_numbers(input_str: str) -> float:
     :return: Float
     """
     # Extract numbers using regular expressions
-    numbers = re.findall(r'-?\d+', input_str)
+    numbers: list = re.findall(r'-?\d+', input_str)
 
     # Convert numbers to integers
     numbers = [int(num) for num in numbers]
@@ -35,6 +38,21 @@ def clean_numbers(input_str: str) -> float:
     # Calculate average
     if len(numbers) > 0:
         return sum(numbers) / len(numbers)
+    else:
+        return 0
+
+
+def clean_first_start_up_column(input_str: str) -> float:
+    """
+    Clean First Start Up Frame column.
+    :param input_str: Input data as String.
+    :return: Float
+    """
+    # Extract the first number using regular expressions
+    match = re.search(r'-?\d+', input_str)
+
+    if match:
+        return int(match.group(0))
     else:
         return 0
 
