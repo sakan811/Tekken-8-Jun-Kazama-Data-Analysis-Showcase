@@ -9,16 +9,20 @@ Showcase visualizations of Jun Kazama data in Tekken 8.
 ## Project Details
 Focus primarily on Jun Kazama from Tekken 8.   
 
-Project Latest Update: June 19, 2024
+Project Latest Update: 25 June 2024
 
 Some move variations were excluded.
 
 Jun Kazama data is based on https://rbnorway.org/jun-t8-frames/.
 
 ## Visualizations
-Visualizations Latest Update: May 23, 2024  
-[Instagram](https://www.instagram.com/p/C7UXUdmOWvW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)  
-[Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid0qs35HjrTHuSyuX8AkdyekuMABJEBwWL4U7Aws5BinEMpDzT8M7cLJkpFJ6Po3dRpl&id=61553626169836)
+Visualizations Latest Update: 25 June 2024
+
+[Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjA3OTE4NTctM2UxNC00MjE3LWI4Y2MtYTk0OWMzZDE1NDFiIiwidCI6ImZlMzViMTA3LTdjMmYtNGNjMy1hZDYzLTA2NTY0MzcyMDg3OCIsImMiOjEwfQ%3D%3D)
+
+[Instagram](https://www.instagram.com/p/C8o3dsavTch/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)  
+
+[Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid09d1uhSATHBRvcrHqjkNxk6YxGHkeo8NgQEeMhig9KQLsgnF2Ph1bwMRG3PmgfzmPl&id=61553626169836)
 
 ## Analysis Details
 Frame (Only first hit is considered)
