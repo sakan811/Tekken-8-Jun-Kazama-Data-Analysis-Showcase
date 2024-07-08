@@ -2,14 +2,15 @@
 Showcase visualizations of Jun Kazama data in Tekken 8.
 
 ## Status
+#### 🎉 **Project Completed** 🎉
+
+Latest Project Update: 9 July 2024
 
 [![CodeQL](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/codeql.yml)  
 [![Python application](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/python-app.yml)
 
 ## Project Details
 Focus primarily on Jun Kazama from Tekken 8.   
-
-Project Latest Update: 25 June 2024
 
 Some move variations were excluded.
 
