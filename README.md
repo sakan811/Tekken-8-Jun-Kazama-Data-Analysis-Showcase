@@ -4,9 +4,8 @@ Showcase visualizations of Jun Kazama data in Tekken 8.
 ## Status
 #### 🎉 **Project Completed** 🎉
 
-Latest Project Update: 9 July 2024
-
 [![CodeQL](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/codeql.yml)  
+
 [![Python application](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/sakan811/Tekken-8-Jun-Kazama-Data-Analysis-Showcase/actions/workflows/python-app.yml)
 
 ## Project Details
@@ -17,13 +16,12 @@ Some move variations were excluded.
 Jun Kazama data is based on https://rbnorway.org/jun-t8-frames/.
 
 ## Visualizations
-Visualizations Latest Update: 25 June 2024
 
 [Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjA3OTE4NTctM2UxNC00MjE3LWI4Y2MtYTk0OWMzZDE1NDFiIiwidCI6ImZlMzViMTA3LTdjMmYtNGNjMy1hZDYzLTA2NTY0MzcyMDg3OCIsImMiOjEwfQ%3D%3D)
 
-[Instagram](https://www.instagram.com/p/C8o3dsavTch/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)  
+[Instagram](https://www.instagram.com/p/C_IK6JpOQuW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)  
 
-[Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid09d1uhSATHBRvcrHqjkNxk6YxGHkeo8NgQEeMhig9KQLsgnF2Ph1bwMRG3PmgfzmPl&id=61553626169836)
+[Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid0r3uFaCXj9aGmnjHgokiR6X7sQ24tTxL5f67Mhc33xmnVpwSHPg3MFiNvn1zqntB1l&id=61553626169836)
 
 ## Analysis Details
 Frame (Only first hit is considered)
