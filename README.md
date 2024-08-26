@@ -23,22 +23,9 @@ Jun Kazama data is based on https://rbnorway.org/jun-t8-frames/.
 
 [Facebook](https://www.facebook.com/permalink.php?story_fbid=pfbid0r3uFaCXj9aGmnjHgokiR6X7sQ24tTxL5f67Mhc33xmnVpwSHPg3MFiNvn1zqntB1l&id=61553626169836)
 
-## Analysis Details
-Frame (Only first hit is considered)
+## Disclaimers
+Moves with multiple hits had their frame averaged.
 
-Frame_Advantage_on_Block (Only last action is considered, or if the move is stopped when blocked)
-
-Frame_Advantage_on_Hit (Only last action is considered)
-
-Moves' **Frame** is mostly 13 – 20 frames
-
-Moves' **Damage** is mostly 16 – 37 damages
-
-Moves' **Frame_Advantage_on_Block** is mostly -12 – 0 frames
-
-Moves' **Frame_Advantage_on_Hit** is mostly 2 – 21 frames
-
-Frame and Dmg/Frame have a positive relationship
 
 ## Codebase Details
 
